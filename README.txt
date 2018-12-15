@@ -2,13 +2,13 @@ IT BOOTCAMP - FINAL PROJECT
 
 Kelompok 4
 =================================================================================
-| Name			            | Role			            | Email				                  |
+Name    Role    Email
 =================================================================================
-| Erwin Putra Tanadjaja	| Junior System Analyst	| jellalxxqas@gmail.com		      |
-| Jason			            | Junior Programmer	    | jasonkurniadj@yahoo.com	      |
-| Lius Paskalis Tanaka	| AM Developer		      | lius.paskalis@gmail.com	      |
-| Verren Christin	      | AM Developer		      | verrenchristine11@gmail.com	  |
-| Heidar Althaf Neil	  | AM Developer		      | heidar.neil342@gmail.com	    |
+Erwin Putra Tanadjaja   Junior System Analyst   jellalxxqas@gmail.com
+Jason   Junior Programmer   jasonkurniadj@yahoo.com
+Lius Paskalis Tanaka    AM Developer    lius.paskalis@gmail.com
+Verren Christin   AM Developer    verrenchristine11@gmail.com
+Heidar Althaf Neil    AM Developer    heidar.neil342@gmail.com
 =================================================================================
 
 Timeline & Activity
