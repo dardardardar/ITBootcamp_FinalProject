@@ -1,0 +1,140 @@
+﻿/***
+ * Created by: Jason
+ * Date: December 24th, 2018
+ * Purpose: General web style
+***/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/*-- CLEAR SPACE --*/
+.ClearTopBottom100p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.ClearTopBottom150p {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.ClearTopBottom250px {
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+/*-- POSITION --*/
+.MarginAuto {
+    margin: auto;
+}
+
+/*-- TEXT ALIGN --*/
+.TextAlignCenter {
+    text-align: center;
+}
+.TextAlignJustify {
+    text-align: justify;
+}
+.TextAlignLeft {
+    text-align: left;
+}
+.TextAlignRight {
+    text-align: right;
+}
+
+/*-- FONT --*/
+.FontBold {
+    font-weight: bold;
+}
+.FontLight {
+    font-weight: lighter;
+}
+.FontXXlarge {
+    font-size: xx-large;
+}
+.FontXLarge {
+    font-size: x-large;
+}
+.FontMedium {
+    font-size: medium;
+}
+.Font12pt {
+    font-size: 12pt;
+}
+.Font14pt {
+    font-size: 14pt;
+}
+.Font18pt {
+    font-size: 18pt;
+}
+.FontBlack {
+    color: black;
+}
+.FontWhite {
+    color: white;
+}
+.FontRed {
+    color: red;
+}
+.FontPrimary {
+    color: midnightblue;
+}
+
+/*-- INPUT --*/
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid midnightblue;
+    padding: 5px 10px;
+}
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid midnightblue;
+    padding: 5px 10px;
+}
+input[type=submit] {
+    border: none;
+    background-color: midnightblue;
+    color: white;
+    cursor: pointer;
+}
+
+/*-- Button --*/
+.Btn {
+    border: none;
+    background-color: midnightblue;
+    color: white;
+    cursor: pointer;
+}
+.FlexBtn {
+    padding: 10px 20px 10px 20px;
+}
+.FixBtn {
+    width: 75px;
+    height 35px;
+}
+.BorderRadius10px {
+    border-radius: 10px;
+}
+.BorderRadius50px {
+    border-radius: 50px;
+}
+
+
+.Header {
+    width: auto;
+    background-color: midnightblue;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.Footer {
+    width: auto;
+    height: 25px;
+    background-color: black;
+    color: white;
+}
