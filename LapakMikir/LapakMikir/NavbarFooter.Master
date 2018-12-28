@@ -1,0 +1,153 @@
+﻿
+<%----------------------------------------
+ -- Created by: Dar 
+ -- Date: December 27th, 2018
+ -- Purpose: Navbar Footer
+----------------------------------------%>
+
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NavbarFooter.Master.cs" Inherits="WebApplication2.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        /* Kalau mau di otak atik atau punya ide silahkan dicoba*/
+        body{
+
+
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin:0;
+        }
+        .footer {
+            text-align: center;
+        }
+        .nav{
+            overflow:hidden;
+            background-color:#99ccee;
+        }
+        .logo{
+            padding-left:35px;
+            padding-bottom:12px;
+        }
+       
+        .menu{
+            float:right;
+            padding-top: 35px;
+            padding-right:35px;
+        }
+        .menu a{
+            text-decoration:none;
+            color:black;
+            padding :25px;
+        }
+        .menu a:hover{
+            text-decoration:none;
+            color:#5295de;
+            
+        }
+        .title{
+            text-align: center;
+            padding:50px;
+            
+        }
+        .list{
+            text-align: center;
+            margin:40px;
+        }
+        .list1{
+            
+            padding: 12px;
+            border:none;
+            border: 2px solid black;
+            
+ 
+        }
+        .courses{
+            text-align: center;
+            padding:120px;
+        }
+        .courses a{
+            margin :50px;
+            text-decoration:none;
+            color: black;
+            background-color:#cccccc;
+
+        }
+        .courses a:hover{
+            background-color:#99ccee;
+            color:white;
+        }
+        .btn1{
+            
+            padding:16px 72px;
+            
+        }
+        .btn2{
+            
+            padding:16px 72px;
+        }
+        .btn3{
+            
+            padding:16px 36px;
+
+        }
+        .btnx{
+            text-align:center;
+            margin:62px;
+        }
+        .ftr{
+            overflow:hidden;
+            background-color:#99ccee;
+            border-top: 2px solid #cfcfcf;
+        }
+
+        /*Presets*/
+
+        #btnx{
+            padding:16px 72px;
+            text-decoration:none;
+            color: black;
+            background-color:#cccccc;
+        }
+        #btnx:hover{
+            background-color:#99ccee;
+            color:white;
+        }
+        
+        .descbox{
+           margin-top:50px;
+           padding:14px;
+           border-style: solid;
+           margin-left: 35%;
+           margin-right: 35%;
+           margin-bottom:50px;
+
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div class="nav">
+                
+            <div class="menu">
+                <a runat="server" href="~/">Courses</a>
+                <a runat="server" href="~/About">Register</a>
+                <a runat="server" href="~/Contact">Login</a></div>
+            <h1 class="logo">Lapak Mikir</h1>
+                
+        </div> 
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        
+    <footer class="ftr">
+        <p class="footer">&copy; <%: DateTime.Now.Year %> - All Right Reserved</p>
+    </footer>
+
+    </form>
+</body>
+</html>
